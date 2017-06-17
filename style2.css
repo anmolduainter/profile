@@ -1,0 +1,311 @@
+body{
+	background:#242424;
+}
+
+
+
+
+#container{
+    
+  position: relative;
+	height: 700px;
+	width: 100%
+}
+
+#upper{
+	background: url('images/cofee.jpg');
+	top: 0;
+    left: 0;
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    filter: brightness(0.3);
+    width: 100%;
+    position: absolute;
+	background-size: cover;
+	
+}
+
+#anmol{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+#anmol>ul{
+
+  color: white;
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  width: 220px;
+  align-content: center;
+  font-size: 20px;
+  background:transparent;
+}
+
+#anmol>ul li{
+
+   padding: 15px 20px 15px 20px;
+   border:solid;
+   list-style: none;
+   text-align: center;
+   margin: 10px 10px 10px 10px;
+}
+
+#anmol>ul li:hover{
+
+  font-size: 30px;
+  background-color: red;
+
+}
+
+
+#developer-p{
+    
+    position: absolute;
+	  font-weight: bold;
+  	font-size: 50px;
+    top: 10%;
+    left:70%;
+    border: solid;
+    border-width: 10px;
+    border-style: solid;
+    color: white;
+    padding:10px 20px 10px 20px;
+
+}
+
+
+#Intro{
+    width: 100%
+    position: absolute;
+    height:300px;
+    text-align: center;
+     background: rgba(233,169,97,0.8);
+}
+
+#Intro>p{
+    font-size: 20px;
+}
+
+#Academic-Qualification{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    text-align: center;
+    background:url('images/Qualification.jpg');
+    background-attachment: fixed;
+}
+
+#academic-contents{
+    position: relative;
+    width: 400px;
+    height: 500px;
+}
+
+#academic-contents>h1{
+  margin-left: 100px;
+}
+
+#tenth{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+   background : rgba(82, 119, 178,0.7);
+   border-radius: 100px;
+   margin-left: 150px;
+}
+
+#tenth:hover{
+
+   height: 110%;
+   width: 120%;
+   z-index: 2;
+   font-size: 20px;
+
+}
+
+#college{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background : rgba(159, 47, 163,0.7);
+   border-radius: 100px;
+   margin-left: 700px;
+}
+
+
+#college:hover{
+
+   height: 110%;
+   width: 120%;
+   z-index: 2;
+   font-size: 20px;
+
+}
+
+
+#twelth{
+    position: absolute;
+    background : rgba(14, 127, 32,0.9);
+    width: 100%;
+    height:100%;
+    z-index: 0;
+    margin-left: 450px;
+    border-radius: 100px;
+}
+
+
+#twelth:hover{
+
+   height: 110%;
+   width: 120%;
+   z-index: 2;
+   font-size: 20px;
+
+}
+
+
+#training-conta{
+
+   position: relative;
+   width: 300px;
+   height: 300px;
+
+}
+
+
+#coding-blocks{
+
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background: transparent;
+   margin-left: 100px;
+
+}
+
+#coding-blocks>img{
+
+   margin-left: 100px;
+   margin-top: 80px;
+
+}
+
+
+#udacity{
+   
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background: transparent;
+   margin-left: 500px;
+
+}
+
+#udacity>img{
+
+   margin-left: 100px;
+   margin-top: 80px;
+
+}
+
+
+#udemy{
+   
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background: transparent;
+   margin-left: 900px;
+
+}
+
+#udemy>img{
+
+   margin-left: 100px;
+   margin-top: 80px;
+
+}
+
+#skills-container{
+  position: relative;
+  width: 100%
+  height:800px;
+}
+
+#skills-back{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 800px;
+  filter: brightness(0.4);
+  background:url('images/skills.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+#skills-content{
+
+  position: relative;
+  width: 200px;
+  top: 0;
+  left: 0;
+  height: 200px;
+
+}
+
+#c{
+
+   position: absolute;
+   width: 100%;
+   height:100%;
+   background:rgba(67,67,67,0.5);
+   margin-left: 100px; 
+
+}
+
+#cplus{
+
+   position: absolute;
+   width: 100%;
+   height:100%;
+   background:rgba(67,67,67,0.5);
+   margin-left: 500px; 
+
+}
+#Java{
+
+   position: absolute;
+   width: 100%;
+   height:100%;
+   background:rgba(67,67,67,0.5);
+   margin-left: 900px; 
+
+}
+#Android{
+
+   position: absolute;
+   width: 100%;
+   height:100%;
+   background:rgba(67,67,67,0.5);
+   margin-left: 100px;
+   margin-top: 300px; 
+
+}
+#PHP{
+
+   position: absolute;
+   width: 100%;
+   height:100%;
+   background:rgba(67,67,67,0.5);
+   margin-left: 500px;
+   margin-top: 300px; 
+
+}
+#Android>img{
+  margin-left: 15px;
+}
