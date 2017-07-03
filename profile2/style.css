@@ -1,0 +1,707 @@
+
+body{
+    background: cornsilk;
+}
+
+
+#circle1{
+
+    -webkit-animation-name: circle1;
+    -moz-animation-name: circle1;
+    -o-animation-name: circle1;
+    animation-name: circle1;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    width: 200px;
+    height: 200px;
+    border-radius: 400px;
+    background: red;
+
+
+}
+#circle2{
+
+    -webkit-animation-name: circle1;
+    -moz-animation-name: circle1;
+    -o-animation-name: circle1;
+    animation-name: circle1;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    width: 200px;
+    height: 200px;
+    border-radius: 400px;
+    background: green;
+
+
+}
+#circle3{
+
+
+    -webkit-animation-name: circle1;
+    -moz-animation-name: circle1;
+    -o-animation-name: circle1;
+    animation-name: circle1;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    width: 200px;
+    height: 200px;
+    border-radius: 400px;
+    background: violet;
+
+
+}
+#circle4{
+
+
+    -webkit-animation-name: circle1;
+    -moz-animation-name: circle1;
+    -o-animation-name: circle1;
+    animation-name: circle1;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    width: 200px;
+    height: 200px;
+    border-radius: 400px;
+    background: blue;
+
+
+}
+
+
+#About{
+    background: mintcream;
+    height: 200px;
+    width:150px;
+    border-color: red;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    border-style: solid;
+    border-radius: 400px;
+    animation-name: menuItems;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-delay: 0s;
+
+}
+
+#Qualification{
+
+    background: mintcream;
+    height: 200px;
+    width:150px;
+    border-color: orange;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    border-style: solid;
+    border-radius: 400px;
+    animation-name: menuItems;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+
+
+}
+#Trainings{
+
+    background: mintcream;
+    height: 200px;
+    width:150px;
+    border-color: yellow;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    border-style: solid;
+    border-radius: 400px;
+    animation-name: menuItems;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-delay: 1.5s;
+
+
+}
+#Skills{
+
+    background: mintcream;
+    height: 200px;
+    width:150px;
+    border-color: darkgreen;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    border-style: solid;
+    border-radius: 400px;
+    animation-name: menuItems;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-delay: 2.5s;
+
+
+}
+#Projects{
+
+    background: mintcream;
+    height: 200px;
+    width:150px;
+    border-color: darkblue;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    border-style: solid;
+    border-radius: 400px;
+    animation-name: menuItems;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-delay: 3.5s;
+
+
+}
+#Contacts{
+
+    background: mintcream;
+    height: 200px;
+    width:150px;
+    border-color: darkviolet;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    border-style: solid;
+    border-radius: 400px;
+    animation-name: menuItems;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-delay: 4.5s;
+
+}
+
+
+
+
+
+@media (max-width: 575px) {
+
+    #circle1{
+
+        -webkit-animation-name: circle2;
+        -moz-animation-name: circle2;
+        -o-animation-name: circle2;
+        animation-name: circle2;
+        animation-duration: 2s;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+        width: 50px;
+        height: 50px;
+        border-radius: 200px;
+        background: red;
+
+
+    }
+    #circle2{
+
+        -webkit-animation-name: circle2;
+        -moz-animation-name: circle2;
+        -o-animation-name: circle2;
+        animation-name: circle2;
+        animation-duration: 2s;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+        width: 50px;
+        height: 50px;
+        border-radius: 400px;
+        background: green;
+
+
+    }
+    #circle3{
+
+        -webkit-animation-name: circle2;
+        -moz-animation-name: circle2;
+        -o-animation-name: circle2;
+        animation-name: circle2;
+        animation-duration: 2s;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+        width: 50px;
+        height: 50px;
+        border-radius: 400px;
+        background: violet;
+
+
+    }
+    #circle4{
+
+        -webkit-animation-name: circle2;
+        -moz-animation-name: circle2;
+        -o-animation-name: circle2;
+        animation-name: circle2;
+        animation-duration: 2s;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+        width: 50px;
+        height: 50px;
+        border-radius: 400px;
+        background: blue;
+
+
+    }
+
+
+    @keyframes circle2 {
+        0%{
+            transform: matrix(0.2,0,0,0.2,0,0)
+        }
+        50%{
+            transform: matrix(1.2,5,5,1.2,0,200)
+        }
+        100%{
+            transform: matrix(0.2,0,0,0.2,0,0)
+        }
+
+    }
+
+
+
+
+    #About{
+        background: mintcream;
+        height: 200px;
+        width:100%;
+        border-color: red;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 200px;
+        border-style: solid;
+        border-radius: 400px;
+
+    }
+
+    #Qualification{
+
+        background: mintcream;
+        height: 200px;
+        width:100%;
+        border-color: red;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 200px;
+        border-style: solid;
+        border-radius: 400px;
+
+
+    }
+    #Trainings{
+
+        background: mintcream;
+        height: 200px;
+        width:100%;
+        border-color: red;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 200px;
+        border-style: solid;
+        border-radius: 400px;
+
+
+    }
+    #Skills{
+
+        background: mintcream;
+        height: 200px;
+        width:100%;
+        border-color: red;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 200px;
+        border-style: solid;
+        border-radius: 400px;
+
+
+    }
+    #Projects{
+
+        background: mintcream;
+        height: 200px;
+        width:100%;
+        border-color: red;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 200px;
+        border-style: solid;
+        border-radius: 400px;
+
+
+    }
+    #Contacts{
+
+        background: mintcream;
+        height: 200px;
+        width:100%;
+        border-color: red;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 200px;
+        border-style: solid;
+        border-radius: 400px;
+
+    }
+
+
+
+
+
+
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+
+    #circle1{
+
+        width: 100px;
+        height: 100px;
+        border-radius: 200px;
+        background: red;
+
+
+    }
+    #circle2{
+
+        width: 100px;
+        height: 100px;
+        border-radius: 400px;
+        background: green;
+
+
+    }
+    #circle3{
+
+
+        width: 100px;
+        height: 100px;
+        border-radius: 400px;
+        background: violet;
+
+
+    }
+    #circle4{
+
+
+        width: 100px;
+        height: 100px;
+        border-radius: 400px;
+        background: blue;
+
+
+    }
+
+
+
+
+    #About{
+        background: mintcream;
+        height: 200px;
+        width:100%;
+        border-color: red;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 200px;
+        border-style: solid;
+        border-radius: 400px;
+
+    }
+
+    #Qualification{
+
+        background: mintcream;
+        height: 200px;
+        width:100%;
+        border-color: red;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 200px;
+        border-style: solid;
+        border-radius: 400px;
+
+
+    }
+    #Trainings{
+
+        background: mintcream;
+        height: 200px;
+        width:100%;
+        border-color: red;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 200px;
+        border-style: solid;
+        border-radius: 400px;
+
+
+    }
+    #Skills{
+
+        background: mintcream;
+        height: 200px;
+        width:100%;
+        border-color: red;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 200px;
+        border-style: solid;
+        border-radius: 400px;
+
+
+    }
+    #Projects{
+
+        background: mintcream;
+        height: 200px;
+        width:100%;
+        border-color: red;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 200px;
+        border-style: solid;
+        border-radius: 400px;
+
+
+    }
+    #Contacts{
+
+        background: mintcream;
+        height: 200px;
+        width:100%;
+        border-color: red;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 200px;
+        border-style: solid;
+        border-radius: 400px;
+
+    }
+
+
+
+
+
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    #circle1{
+
+        width: 150px;
+        height: 150px;
+        border-radius: 400px;
+        background: red;
+
+
+    }
+    #circle2{
+
+        width: 150px;
+        height: 150px;
+        border-radius: 400px;
+        background: green;
+
+
+    }
+    #circle3{
+
+
+        width: 150px;
+        height: 150px;
+        border-radius: 400px;
+        background: violet;
+
+
+    }
+    #circle4{
+
+
+        width: 150px;
+        height: 150px;
+        border-radius: 400px;
+        background: blue;
+
+
+    }
+
+
+
+    #About{
+        background: mintcream;
+        height: 200px;
+        width:100%;
+        border-color: red;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 200px;
+        border-style: solid;
+        border-radius: 400px;
+
+    }
+
+    #Qualification{
+
+        background: mintcream;
+        height: 200px;
+        width:100%;
+        border-color: red;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 200px;
+        border-style: solid;
+        border-radius: 400px;
+
+
+    }
+    #Trainings{
+
+        background: mintcream;
+        height: 200px;
+        width:100%;
+        border-color: red;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 200px;
+        border-style: solid;
+        border-radius: 400px;
+
+
+    }
+    #Skills{
+
+        background: mintcream;
+        height: 200px;
+        width:100%;
+        border-color: red;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 200px;
+        border-style: solid;
+        border-radius: 400px;
+
+
+    }
+    #Projects{
+
+        background: mintcream;
+        height: 200px;
+        width:100%;
+        border-color: red;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 200px;
+        border-style: solid;
+        border-radius: 400px;
+
+
+    }
+    #Contacts{
+
+        background: mintcream;
+        height: 200px;
+        width:100%;
+        border-color: red;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 200px;
+        border-style: solid;
+        border-radius: 400px;
+
+    }
+
+
+}
+
+
+@keyframes circle1 {
+   0%{
+       transform: matrix(0.2,0,0,0.2,0,0)
+   }
+    50%{
+        transform: matrix(1.2,5,5,1.2,0,200)
+
+    }
+    100%{
+        transform: matrix(0.2,0,0,0.2,0,0)
+    }
+
+}
+
+@keyframes menuItems {
+
+    0%{
+
+        transform: RotateY(0deg);
+
+    }
+    50%{
+
+    }
+    100%{
+        transform:RotateY(360deg);
+    }
+
+}
+
+#About_top{
+
+    background: aquamarine;
+    animation-name: AboutAnim;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+
+}
+#about_jumbo{
+    background: aquamarine;
+}
+#About_details{
+
+    animation-name: AboutAnim;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyFrames AboutAnim{
+
+    from{
+        transform: translateY(1000px);
+    }
+
+    To{
+        transform: translateY(0px);
+    }
+
+}
+

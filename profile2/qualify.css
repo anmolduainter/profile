@@ -1,0 +1,59 @@
+body{
+    background: url("images/Qualification.jpg");
+}
+
+#qualify_ten{
+
+    margin:10px 20px 10px 20px;
+    background: #384;
+    color: white;
+    border-radius: 100px;
+    animation-name: qualify;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+
+}
+#qualify_twelve{
+
+    margin:10px 20px 10px 20px;
+    background: #224;
+    color: white;
+    border-radius: 100px;
+    animation-name: qualify;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+
+}
+#qualify_cllg{
+
+    margin:10px 20px 10px 20px;
+    background: #887;
+    color: white;
+    border-radius: 100px;
+    animation-name: qualify;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes qualify {
+
+    0%{
+        transform: matrix(1.2,5,5,1.2,0,0);
+
+    }
+    50%{
+
+        transform: matrix(1.5,0,0,1.5,0,0);
+
+    }
+    100%{
+
+        transform: matrix(1,0,0,1,0,0);
+
+    }
+
+}
