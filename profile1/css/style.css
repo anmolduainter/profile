@@ -3,22 +3,14 @@
 	width: 100%;
 }
 
-#Hi{
+/*Details S*/
 
-   animation: Hi 1s;
-   animation-timing-function: linear;
-
+.jumbotron{
+	background: transparent	;
 }
 
-@keyframes Hi{
-	from{
-       transform: translateX(1200px);
-	}
-	to{
-       
-       transform: translateX(0px);
-	}
-}
+/*Details E*/
+
 
 #belowhi{
 
