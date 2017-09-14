@@ -12,6 +12,61 @@
 /*Details E*/
 
 
+/*Education S*/
+
+#ten{
+	margin:10px 20px 10px 20px;
+	background: #384;
+	color: white;
+	border-radius: 100px;
+	transition: margin 1s;
+}
+
+#ten:hover{
+	z-index: 1;
+	background: whitesmoke;
+	color: black;
+    margin: 0px 5px 0px 5px;
+	transition: margin 1s;
+}
+
+#twelve{
+	margin:10px 20px 10px 20px;
+	background: darkslateblue;
+	color: white;
+	border-radius: 100px;
+	transition: margin 1s;
+}
+
+#twelve:hover{
+	z-index: 1;
+	background: green;
+	background: whitesmoke;
+	color: black;
+	margin: 0px 5px 0px 5px;
+	transition: margin 1s;
+}
+
+#btech{
+	margin:10px 20px 10px 20px;
+	background: #887;
+	color: white;
+	border-radius: 100px;
+	transition: margin 1s;
+}
+
+#btech:hover{
+	z-index: 1;
+	background: green;
+	background: whitesmoke;
+	color: black;
+	margin: 0px 5px 0px 5px;
+	transition: margin 1s;
+}
+
+/*Education E*/
+
+
 #belowhi{
 
    animation: belowhi 1s;
